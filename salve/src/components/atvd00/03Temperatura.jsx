@@ -6,7 +6,7 @@ export const Temperature = () =>{
         return (5*(f-32))/9
     }
     function kelvin(k) {
-        //Celcius
+        //Celcius 
         let c = k - 273
         //Fahrenheit
         let f = (9*(k-273))/5+32
